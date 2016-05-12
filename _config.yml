@@ -13,10 +13,10 @@ permalink:          /:year/:month/:day/:title.html
 
 # Navigation
 nav:
-  - name:           "About"
-    href:           "/about"
-#  - name:           "Download"
-#    href:           "//github.com/gfjaru/Kiko/releases"
+#  - name:           "Timeline"
+#    href:           "/timeline"
+  - name:           "Proposal"
+    href:           "/proposal"
 
 # Sass
 sass:
