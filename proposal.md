@@ -77,8 +77,7 @@ We are using MongoDB in OGV. It is a schema-less database. But however, it is ge
 
 For instance, we have a collection in OGV called "Ogvsettings".
 
-`settings.schema = new simpleSchema({ `
-`gobjPath: {type: string} });`
+`settings.schema = new simpleSchema({gobjPath: {type: string} });`
 
 If we apply the above schema to collection Ogvsettings, it will make sure we get a string value in the "gobjPath" field of the collection. Thus, **making our application more robust and secure.**
 
