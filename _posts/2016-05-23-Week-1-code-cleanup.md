@@ -3,7 +3,7 @@ title: Week 1 (code cleanup)
 ---
 
 <p class="lead">
-So it finally starts, today commence the first day of GSoC coding period. In this week as per my plan, I'd be doing a bit of code cleanup. This involves managing github repository, removing redundant code, making sure all the variable names are consistent and so on.
+In this week as per my plan, I'd be doing a bit of code cleanup. This involves managing github repository, removing redundant code, making sure all the variable names are consistent and so on.
 </p>
 
 <div class="accordion">
