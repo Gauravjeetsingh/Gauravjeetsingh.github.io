@@ -33,6 +33,27 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+.icon-down{
+background-image:url('/images/down.png');
+background-position:center bottom;
+}
+
+.icon-up{
+background-image:url('/images/up.png');
+background-position:center top;
+}
+
+.acc-icon{
+margin-top:2px;
+display:inline-block;
+width:24px;
+height:24px;
+}
+
+.ui-accordion-header{
+cursor:pointer;
+}
+
 /* top arrow style */
 #return-to-top {
     width: 50px;
@@ -82,6 +103,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  outline:none;
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;

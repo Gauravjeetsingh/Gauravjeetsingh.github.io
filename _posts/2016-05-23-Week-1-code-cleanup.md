@@ -7,7 +7,6 @@ In this week as per my plan, I'd be doing a bit of code cleanup. This involves m
 </p>
 
 <div class="accordion">
-
 <h3> May 23rd </h3>
 <div>
 <p>God blessed with an amazing weather to commence this coding period. Such a relief from scorching days. Also, today I finished with my university exams and thus ready to code. This week's milestone is to clean the existing code. To finish what's already started seems a right approach. </p>

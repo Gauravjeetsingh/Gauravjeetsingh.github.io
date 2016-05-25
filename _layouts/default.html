@@ -17,7 +17,8 @@
 
 $('.accordion').accordion({
 	collapsible: true,
-	icons: { "header": "ui-icon-plus", "fa fa-sort-desc": "fa fa-sort-asc" }
+	icons: { "header": "icon-down acc-icon", "activeHeader":"icon-up acc-icon" },
+	heightStyle: "content"
 });
 
 $(window).scroll(function() {
