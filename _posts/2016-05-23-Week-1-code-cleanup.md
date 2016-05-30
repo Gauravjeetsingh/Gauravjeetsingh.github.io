@@ -7,6 +7,22 @@ In this week as per my plan, I'd be doing a bit of code cleanup. This involves m
 </p>
 
 <div class="accordion">
+
+<h3> May 26th </h3>
+<div>
+<p>So as suggested by Inder, I started working for deploying meteor on freeBSD system.
+The first task was to make my machine FreeBSD ready. I started the downloading the iso file in the early morning, but because of the network problem, I had to restart the download every time it fails. 
+Frustrated from restarting, I searched a bit online and came to know about wget command. I used wget to download the iso, and within few hours the iso was with me. Yet it took hours because the internet speed has been  slow this week.</p>
+<p><code>wget -c ftp://ftp.freebsd.org/pub/FreeBSD/releases/ISO-IMAGES/10.3/FreeBSD-10.3-RELEASE-amd64-disc1.iso </code></p>
+<p>The above code worked for me.</p>
+
+<p>Almost, a complete day was spent in doing the download thing only. Also, I had to manage my hard drive partitions to make them ready for freeBSD.</p>
+
+<p>Another challenge was to make bootable usb stick using the dowloaded iso file. It seemed quite an easy task, but sometimes, the world doesn't work the way you expect. I tried dd command, I tried unetbootin, but to my surprise, nothing worked. </p>
+
+<p>With dd command, I was unable to get FreeBSD boot screen, the one that comes in starting. With unetbootin I was able to get a unetbootin's boot loader, but the
+menu doesn't work.</p>
+</div>
 <h3> May 25th </h3>
 <div>
 <p>The first activity of this day was to send a mail to BRL-CAD mailing list about the confusion I had regarding repo access.</p>
