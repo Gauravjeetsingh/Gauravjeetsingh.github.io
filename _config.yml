@@ -13,8 +13,8 @@ permalink:          /:year/:month/:day/:title.html
 
 # Navigation
 nav:
-#  - name:           "Timeline"
-#    href:           "/timeline"
+  - name:           "Project status"
+    href:           "/status"
   - name:           "Proposal"
     href:           "/proposal"
 
