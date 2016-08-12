@@ -8,8 +8,8 @@ permalink: /status/
 
 <table>
    <tr>
-      <th>Task Name</th>
-      <th>Status</th>
+   <th>Task Name</th>
+   <th>Status</th>
    </tr>
    <tr>
       <td>Repository Cleanup</td>
@@ -20,7 +20,7 @@ permalink: /status/
       <td><span style="color:#2980b9;">Almost Done</span></td>
    </tr> 
    <tr>
-      <td>Robust Database <p><em>using <code>aldeed:schema</code> Package</p></td>
+      <td>Robust Database <p><em>using <code>aldeed:schema</code> Package</em></p></td>
       <td>Done</td>
    </tr>
    <tr>
