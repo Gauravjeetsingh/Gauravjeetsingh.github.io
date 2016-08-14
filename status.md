@@ -53,7 +53,7 @@ permalink: /status/
    </tr>
    <tr>
       <td>Enhacned Model viewer <p><em>Changing color/texture of model parts</em></p></td>
-      <td><span style="color:#c0392b;">Incomplete</span></td>
+      <td><span style="color:#27ae60;">In progress</span></td>
    </tr> 
    <tr>
       <td>UI/UX improvements</td>
