@@ -9,10 +9,10 @@ Like all good things, GSoC also had an end date. In this post I will try to summ
 <td><a target="_blank" href="http://138.68.52.118:3000/">Live Demo</a></td>
 </tr>
 <tr>
-<td><a target="_blank" href="https://github.com/BRL-CAD/OGV-meteor/commits/development?author=Gauravjeetsingh">My Github Commits during GSoC period</a></td>
+<td><a target="_blank" href="/commits">My Github Commits during GSoC period</a></td>
 </tr>
 <tr>
-<td><a target="_blank" href="https://github.com/BRL-CAD/OGV-meteor/pulls?q=is%3Apr+author%3AGauravjeetsingh">Pull Requests I made</a></td>
+<td><a target="_blank" href="/pullrequests">Pull Requests I made</a></td>
 </tr>
 <tr>
 <td><a target="_blank" href="/status">Brief status report</a></td>

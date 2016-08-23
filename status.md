@@ -41,7 +41,7 @@ permalink: /status/
    </tr>
    <tr>
       <td>Merging Obj files</td>
-      <td><span style="color:#27ae60;">In progress</span></td>
+      <td><i><span style="color:#27ae60;">stalled</span></i></td>
    </tr>
    <tr>
       <td>Notification Panel</td>
@@ -57,7 +57,7 @@ permalink: /status/
    </tr> 
    <tr>
       <td>UI/UX improvements</td>
-      <td><span style="color:#27ae60;">In progress</span></td>
+      <td>Done</td>
    </tr> 
 
 
