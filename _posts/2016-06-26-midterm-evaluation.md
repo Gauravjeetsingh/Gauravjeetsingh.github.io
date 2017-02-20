@@ -1,5 +1,6 @@
 ---
 title: Mid Term Evaluation
+category: gsoc
 ---
 
 <p class="lead">

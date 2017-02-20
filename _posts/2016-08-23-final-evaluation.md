@@ -1,5 +1,7 @@
 ---
 title: Final Evaluation
+layout: post
+category: gsoc
 ---
 
 <p class="lead">

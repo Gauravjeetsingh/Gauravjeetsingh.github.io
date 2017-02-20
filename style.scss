@@ -37,6 +37,12 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+.page-nav{
+    a{
+        text-decoration:none;
+    }
+}
+
 .icon-down{
 background-image:url('/images/down.png');
 background-position:center bottom;

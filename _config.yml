@@ -8,15 +8,13 @@ name:              "Gauravjeet"
 # URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+permalink:          /:title.html
 
 
 # Navigation
 nav:
-  - name:           "Project status"
-    href:           "/status"
-  - name:           "Proposal"
-    href:           "/proposal"
+  - name:           "GSoC16"
+    href:           "/gsoc"
 
 # Sass
 sass:

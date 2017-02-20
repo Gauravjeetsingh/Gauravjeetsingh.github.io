@@ -1,5 +1,7 @@
 ---
 title: Grown up Meteor
+layout: post
+category: gsoc
 ---
 
 <p class="lead">

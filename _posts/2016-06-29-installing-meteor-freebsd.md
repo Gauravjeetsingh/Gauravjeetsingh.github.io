@@ -1,5 +1,7 @@
 ---
 title: Installing Meteor on FreeBSD
+layout: post
+category: gsoc
 ---
 
 <p class="lead">

@@ -1,5 +1,7 @@
 ---
 title: Hello World
+layout: post
+category: gsoc
 ---
 
 <p class="lead">I am happy to share that I got selected in GSoC 16. I will be coding my summer with <a href="http://brlcad.org">BRL-CAD</a> community. I will be working on Online Geometry Viewer, a 3D viewer written in Meteor.</p>
