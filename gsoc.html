@@ -1,22 +1,17 @@
 ---
-layout: default
+layout: page
+permalink: /gsoc/
 ---
-<header class="masthead">        
-  <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.name }}<span>Singh</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
+<nav class="page-nav">
+    <a href="/proposal">Proposal</a>
+    <a href="/status">Project Status</a>
+</nav>
 <div class="content list">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
 {% for post in site.posts %}
-    {% if {{post.category}} == "default" %}
+    {% if {{post.category}} == "gsoc" %}
   <div class="list-item">
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

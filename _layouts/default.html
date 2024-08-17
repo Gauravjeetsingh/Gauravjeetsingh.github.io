@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <script type="text/javascript" src="/js/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+  </head>
+<body>
+  <div class="container">
+    {{ content }}
+  </div>
+<script type="text/javascript">
+
+$('.accordion').accordion({
+	collapsible: true,
+	icons: { "header": "icon-down acc-icon", "activeHeader":"icon-up acc-icon" },
+	heightStyle: "content"
+});
+
+$(window).scroll(function() {
+	if($(this).scrollTop() >= 50) {
+		$("#return-to-top").fadeIn(200);
+	}else{
+		$("#return-to-top").fadeOut(200);
+	}
+});
+
+$("#return-to-top").click(function(){
+		$('body,html').animate({
+			scrollTop : 0
+		}, 500);
+	});
+
+</script>
+</body>
+</html>
